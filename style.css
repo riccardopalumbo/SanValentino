@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at center, #f8d1e1, #ffc1c6);
+    font-size: 16px;
+    color: white;
+
+    font-family: "Gentium Plus", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#start, #main, #response {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#main, #response {
+    display: none;
+}
+
+
+.main-image, .response-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+#yes-btn {
+    background-color: #00b418;
+    color: white;
+    padding: 20px 40px;
+    box-shadow: 0 0px 10px  rgba(0, 163, 49, 0.3);
+}
+#no-btn {
+    background-color: #ff300cbb;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 0px 10px rgba(248, 73, 79, 0.616);
+}
+
+#start-btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 0px 10px rgba(255, 105, 180, 0.5);
+}
+
+#response {
+    display: none;
+}
